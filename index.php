@@ -3,7 +3,7 @@
 $path = dirname(__FILE__) . '/../lib';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 
-echo "testing";
+echo "testing feature branch";
 
 require_once 'Google/Api/Ads/Dfp/Util/v201605/StatementBuilder.php';
 require_once 'ExampleUtils.php';
